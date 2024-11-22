@@ -1,4 +1,4 @@
-
+n 
 # Impact of Node Pruning on the Final Dense Layer of a CNN
 
 This project investigates the use of node pruning within a stratified k-fold cross-validation framework to improve the recall of CNNs in medical imaging tasks.
@@ -94,7 +94,7 @@ If you use this repository, please cite:
 
 ```bibtex
 @misc{nodepruningresearch,
-  author       = {DevDizzle},
+  author       = {Evan R. Parra},
   title        = {Impact of Node Pruning on the Final Dense Layer of a CNN},
   year         = {2024},
   howpublished = {\url{https://github.com/DevDizzle/node-pruning-research}}
