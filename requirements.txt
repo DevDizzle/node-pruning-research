@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+logging
+tqdm
+scipy
+psutil
+tensorflow
+scikit-learn
+Pillow
