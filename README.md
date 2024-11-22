@@ -1,6 +1,6 @@
 # Node Pruning Effects on CNN Performance Metrics
 
-This project investigates the use of node pruning the final dense layer within a stratified k-fold cross-validation framework to improve the recall of CNNs in medical imaging tasks.
+This project investigates the use of node pruning within a stratified k-fold cross-validation framework to improve the recall of CNNs in medical imaging tasks.
 
 ## Key Features
 - Implements node pruning to optimize model complexity and recall.
