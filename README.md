@@ -77,7 +77,7 @@ To reproduce the results, you’ll need to download the dataset from the [Kaggle
 The following visualizations are included in the repository:
 
 - **Bar Plot:** Average recall across pruning strategies  
-  ![Bar Plot](imagess/bar-plot.png)
+  ![Bar Plot](images/bar-plot.png)
 
 - **Box Plot:** Distribution of recall across strategies  
   ![Box Plot](images/box-plot.png)
