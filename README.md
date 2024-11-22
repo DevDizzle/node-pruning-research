@@ -19,4 +19,4 @@ Pruning significantly improved recall across multiple strategies while maintaini
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Node-Pruning-Optimization.git
+   git clone https://github.com/DevDizzle/node-pruning-optimization.git
