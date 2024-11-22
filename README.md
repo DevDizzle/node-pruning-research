@@ -1,4 +1,3 @@
-n 
 # Impact of Node Pruning on the Final Dense Layer of a CNN
 
 This project investigates the use of node pruning within a stratified k-fold cross-validation framework to improve the recall of CNNs in medical imaging tasks.
