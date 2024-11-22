@@ -8,7 +8,7 @@ This project investigates the use of node pruning within a stratified k-fold cro
 - Evaluates performance metrics across multiple pruning strategies.
 
 ## Repository Structure
-- `notebook/`: Contains the Jupyter/Colab notebook for experiments.
+- `notebook/`: Contains the Colab notebook for experiments.
 - `data/`: Includes relevant datasets used for training and evaluation.
 - `figures/`: Visualization assets like bar plots and scatter plots.
 - `README.md`: Project overview and usage instructions.
