@@ -3,7 +3,7 @@
 This project investigates the use of node pruning within a stratified k-fold cross-validation framework to improve the recall of CNNs in medical imaging tasks.
 
 ## Key Features
-- **Node Pruning Implementation:** Optimizes model complexity and enhances recall.
+- **Node Pruning Implementation:** Reduces model complexity and enhances recall
 - **ResNet50V2 Base Model:** Utilizes a state-of-the-art architecture for binary classification of skin lesions.
 - **Comprehensive Evaluation:** Assesses performance metrics across multiple pruning strategies.
 
