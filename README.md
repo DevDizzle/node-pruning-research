@@ -1,11 +1,11 @@
-# Impact of Node Pruning on the Final Dense Layer of a CNN
+# Enhancing Recall in Skin Lesion Classification with Node Pruning
 
 This project investigates the use of node pruning within a stratified k-fold cross-validation framework to improve the recall of CNNs in medical imaging tasks.
 
 ## Key Features
-- Implements node pruning to optimize model complexity and recall.
-- Uses ResNet50V2 as the base model for binary classification of skin lesions.
-- Evaluates performance metrics across multiple pruning strategies.
+- **Node Pruning Implementation:** Optimizes model complexity and enhances recall.
+- **ResNet50V2 Base Model:** Utilizes a state-of-the-art architecture for binary classification of skin lesions.
+- **Comprehensive Evaluation:** Assesses performance metrics across multiple pruning strategies.
 
 ## Repository Structure
 - `notebook/`: Contains the Colab notebook for experiments.
@@ -19,11 +19,11 @@ Pruning strategies improved recall while maintaining AUC. Key metrics are summar
 | **Pruning Strategy** | **Accuracy Mean** | **AUC Mean** | **Precision Mean** | **Recall Mean** |
 |----------------------|-------------------|--------------|--------------------|------------------|
 | Baseline             | 0.7323            | 0.8131       | 0.7798             | 0.6540           |
-| Pruned_All           | 0.6237            | 0.8028       | 0.5950             | 0.9167           |
-| Pruned_Top1          | 0.7359            | 0.8119       | 0.7591             | 0.6978           |
-| Pruned_Top5          | 0.7191            | 0.8113       | 0.6958             | 0.7987           |
-| Pruned_Top10         | 0.6825            | 0.8107       | 0.6397             | 0.8821           |
-| Pruned_Top15         | 0.6377            | 0.8061       | 0.6036             | 0.9101           |
+| Pruned\_All          | 0.6237            | 0.8028       | 0.5950             | 0.9167           |
+| Pruned\_Top1         | 0.7359            | 0.8119       | 0.7591             | 0.6978           |
+| Pruned\_Top5         | 0.7191            | 0.8113       | 0.6958             | 0.7987           |
+| Pruned\_Top10        | 0.6825            | 0.8107       | 0.6397             | 0.8821           |
+| Pruned\_Top15        | 0.6377            | 0.8061       | 0.6036             | 0.9101           |
 
 ## Data Acquisition
 To reproduce the results, you’ll need to download the dataset from the [Kaggle ISIC 2024 Challenge](https://www.kaggle.com/competitions/isic-2024-challenge). Follow these steps:
@@ -61,28 +61,33 @@ To reproduce the results, you’ll need to download the dataset from the [Kaggle
     git clone https://github.com/DevDizzle/node-pruning-research.git
     ```
 
-2. **Install the required dependencies:**
+2. **Navigate to the project directory:**
+    ```bash
+    cd node-pruning-research
+    ```
+
+3. **Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Open the notebook:**
-    - Navigate to `notebook/node-pruning-cnn-analysis.ipynb` and open it in Jupyter Notebook or [Google Colab](https://colab.research.google.com/).
+4. **Open the notebook:**
+    - Navigate to `notebook/node-pruning-cnn-analysis.ipynb` and open it in [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://colab.research.google.com/).
 
-4. **Reproduce the experiments:**
+5. **Reproduce the experiments:**
     - Follow the instructions within the notebook to run the experiments.
 
 ## Visualizations
 The following visualizations are included in the repository:
 
 - **Bar Plot:** Average recall across pruning strategies  
-  ![Bar Plot](images/bar-plot.png)
+  ![Bar Plot](figures/bar-plot.png)
 
 - **Box Plot:** Distribution of recall across strategies  
-  ![Box Plot](images/box-plot.png)
+  ![Box Plot](figures/box-plot.png)
 
 - **Scatter Plot:** Precision vs. Recall  
-  ![Scatter Plot](images/scatter-plot.png)
+  ![Scatter Plot](figures/scatter-plot.png)
 
 ## Insights
 - **Improved Recall:** Node pruning, especially the `Pruned_All` and `Pruned_Top10` strategies, significantly improved recall compared to the baseline.
@@ -93,6 +98,12 @@ If you use this repository, please cite:
 
 ```bibtex
 @misc{nodepruningresearch,
+  author       = {Evan R. Parra},
+  title        = {Enhancing Recall in Skin Lesion Classification with Node Pruning},
+  year         = {2024},
+  howpublished = {\url{https://github.com/DevDizzle/node-pruning-research}}
+}
+
   author       = {Evan R. Parra},
   title        = {Impact of Node Pruning on the Final Dense Layer of a CNN},
   year         = {2024},
