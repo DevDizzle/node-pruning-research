@@ -81,13 +81,13 @@ To reproduce the results, you’ll need to download the dataset from the [Kaggle
 The following visualizations are included in the repository:
 
 - **Bar Plot:** Average recall across pruning strategies  
-  ![Bar Plot](figures/bar-plot.png)
+  ![Bar Plot](images/bar-plot.png)
 
 - **Box Plot:** Distribution of recall across strategies  
-  ![Box Plot](figures/box-plot.png)
+  ![Box Plot](images/box-plot.png)
 
 - **Scatter Plot:** Precision vs. Recall  
-  ![Scatter Plot](figures/scatter-plot.png)
+  ![Scatter Plot](images/scatter-plot.png)
 
 ## Insights
 - **Improved Recall:** Node pruning, especially the `Pruned_All` and `Pruned_Top10` strategies, significantly improved recall compared to the baseline.
