@@ -103,9 +103,3 @@ If you use this repository, please cite:
   year         = {2024},
   howpublished = {\url{https://github.com/DevDizzle/node-pruning-research}}
 }
-
-  author       = {Evan R. Parra},
-  title        = {Impact of Node Pruning on the Final Dense Layer of a CNN},
-  year         = {2024},
-  howpublished = {\url{https://github.com/DevDizzle/node-pruning-research}}
-}
